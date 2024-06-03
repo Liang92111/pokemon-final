@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>當機等候網頁</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url("logo.png");
+            background-size: cover;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 960px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            background-color: rgba(220, 220, 220, 0.3);
+            padding: 20px;
+            margin-top: 20px; /* 增加上邊距 */
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content p {
+            margin-bottom: 10px;
+        }
+
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background-color: dodgerblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video width="100%" controls>
+            <source src="mv.mp4" type="video/mp4">
+            您的瀏覽器不支援 HTML5 影片標籤。
+        </video>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>當機中...請稍後</h1>
+        </div>
+        <div class="content">
+            <p>
+                訓練家您好，由於系統正在維護中，寶可夢世界暫時無法進入。
+            </p>
+            <p>
+                我們預計將在 30 分鐘內完成維護，屆時您將能夠再次暢玩寶可夢世界。
+            </p>
+            <c>
+                在等待期間，您可以：
+            </c>
+            <ul>
+                <li><a href="https://tw.portal-pokemon.com/play/pokedex">查看寶可夢圖鑑，了解您喜愛的寶可夢的詳細資訊。</a></li>
+                <li><a href="https://www.youtube.com/channel/UCUsB9KTwSGgPlIARzdaKb_Q">觀看寶可夢動畫或電影，重溫經典的寶可夢故事。</a></li>
+            </ul>
+            <p>
+                我們為造成的不便表示歉意。感謝您的理解與耐心。
+            </p>
+        </div>
+        <div class="footer">
+            <p>
+                ©2024 The Pokémon Company International.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
